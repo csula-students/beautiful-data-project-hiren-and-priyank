@@ -10,7 +10,7 @@ public class mongoDB {
 	MongoClient mongo = null;
 	DB db = null;
 	DBCollection collection = null;
-//
+
 	public mongoDB() {
 		try {
 			mongo = new MongoClient("localhost", 27017);
