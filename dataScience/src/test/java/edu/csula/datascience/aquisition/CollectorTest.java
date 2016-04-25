@@ -38,7 +38,8 @@ public class CollectorTest {
         /*List<SimpleModel> expectedList = Lists.newArrayList(
                 new SimpleModel("PA", "BUS LANE VIOLATION","5","JTW5438","PAS","1206P"),
                 new SimpleModel("NY", "BUS LANE VIOLATION","16","GTH1661","PAS","0134P")
-            );*/
+            );
+*/
 
         
         for (int i = 0; i < 2; i ++) {

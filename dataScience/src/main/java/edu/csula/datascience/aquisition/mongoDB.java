@@ -18,7 +18,6 @@ public class mongoDB {
 			collection = db.getCollection("data");
 		} catch (MongoException e) {
 			e.printStackTrace();
-			
 		}
 	}
 
