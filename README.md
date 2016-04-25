@@ -6,5 +6,5 @@ Cs594 Team Repo
 
   Hiren Patel 304384462
   Priyank Patel 305076517
-  Kunal Jangde 304390364
+  Kunal Jangde
   
