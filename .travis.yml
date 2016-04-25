@@ -1,3 +1,5 @@
+sudo: required
+
 language: java
 
 jdk:
@@ -5,5 +7,3 @@ jdk:
 
 after_success:
   - ./gradlew cobertura eoveralls
-
-sudo: required
