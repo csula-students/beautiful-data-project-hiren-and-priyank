@@ -12,4 +12,10 @@ public class MockCollector  implements Collector<SimpleModel, MockData> {
 	
 	}
 
+	@Override
+	public void save(String path, String mongoDBCollection) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
