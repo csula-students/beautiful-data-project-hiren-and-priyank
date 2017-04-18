@@ -10,7 +10,7 @@ public class mongoDB {
 	MongoClient mongo = null;
 	DB db = null;
 	DBCollection collection = null;
-
+//
 	public mongoDB() {
 		try {
 			mongo = new MongoClient("localhost", 27017);
@@ -18,6 +18,7 @@ public class mongoDB {
 			collection = db.getCollection("data");
 		} catch (MongoException e) {
 			e.printStackTrace();
+			
 		}
 	}
 
